@@ -57,6 +57,11 @@ header {
   color: white;
 }
 
+.standards-checklist img {
+  width: 80%;
+  max-width: 300px;
+}
+
 .underline {
   text-decoration: underline;
 }
