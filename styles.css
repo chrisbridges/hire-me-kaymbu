@@ -57,14 +57,10 @@ header {
   color: white;
 }
 
-.standards-checklist img {
-  width: 80%;
-  max-width: 300px;
-}
-
 .underline {
   text-decoration: underline;
 }
+
 .testimonials h2, .testimonials h4 {
   color: #f864b2;
   font-weight: 700;
@@ -124,7 +120,7 @@ header {
     font-size: 20px;
   }
 
-  .standards-text {
+  .standards-text, .standards-checklist {
     padding: 0 40px;
   }
 
