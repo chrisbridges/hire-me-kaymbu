@@ -9,6 +9,7 @@ body {
 .padded-div {
   padding: 20px;
   margin: 0 auto;
+  max-width: 800px;
 }
 
 .kaymbu-logo {
@@ -79,6 +80,10 @@ header {
   font-size: 14px;
 }
 
+.testimonial {
+  margin-bottom: 20px;
+}
+
 .contact {
   background-image: url("https://uploads.strikinglycdn.com/static/backgrounds/pastel-solids/33.jpg");
   background-repeat: repeat;
@@ -88,15 +93,48 @@ header {
   color: white;
 }
 
-.contact-icon {
-  /* display: inline-block;
-  color: white;
-  border: 1px solid blue;
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  background-color: blue; */
-  display: inline-block;
-  margin: 20px;
+.contact-icons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;  
+}
+
+.contact-icon, a {
+  margin-top: 20px;
   color: #7aa3cc;
+}
+
+#email {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (min-width: 600px) {
+
+  .splash h2, .standards h2, .testimonials h2 {
+    font-size: 40px;
+  }
+
+  .splash h3, .standards h3, .testimonials h3 {
+    font-size: 20px;
+  }
+
+  .standards-text {
+    padding: 0 40px;
+  }
+
+  .standards .padded-div, .testimonial-row {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+  }
+
+  .standards p {
+    font-size: 20px;
+  }
+
+  .testimonial {
+    padding: 0 20px;
+  }
+
 }
